@@ -1,0 +1,13 @@
+#main_content {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  #todo_field_wrapper, #todo_list_wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
