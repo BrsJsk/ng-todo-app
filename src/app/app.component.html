@@ -6,14 +6,10 @@
   <div id="todo_field_wrapper">
     <mat-form-field appearance="fill" style="width: 70%;">
       <mat-label>Add a todo</mat-label>
-      <input matInput placeholder="Type something..">
+      <input matInput placeholder="Type something.." />
     </mat-form-field>
   </div>
   <div id="todo_list_wrapper">
-    <mat-selection-list style="width: 70%;">
-      <mat-list-option>
-        Todo list item
-      </mat-list-option>
-    </mat-selection-list>
+    <app-todo-list style="width: 70%;"></app-todo-list>
   </div>
 </div>
